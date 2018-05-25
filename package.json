@@ -1,0 +1,38 @@
+{
+  "name": "fasta-js",
+  "version": "0.0.1",
+  "description": "An all purpose module for working with FASTA information",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test-index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyport/fasta-js.git"
+  },
+  "keywords": [
+    "peptide",
+    "protein",
+    "chemistry",
+    "proteomics",
+    "genomics",
+    "fasta",
+    "sequence",
+    "DNA",
+    "RNA"
+  ],
+  "author": "Michael Porter <michaelporter.chemistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptyport/fasta-js/issues"
+  },
+  "homepage": "https://github.com/emptyport/fasta-js#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  }
+}
