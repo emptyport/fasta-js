@@ -1,7 +1,7 @@
 {
   "name": "fasta-js",
-  "version": "0.0.1",
-  "description": "An all purpose module for working with FASTA information",
+  "version": "1.0.0",
+  "description": "A general purpose module for parsing FASTA files",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test-index.js | tap-spec"
